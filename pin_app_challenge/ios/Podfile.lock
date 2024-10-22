@@ -1,26 +1,19 @@
 PODS:
-  - connectivity_plus (0.0.1):
-    - Flutter
-    - FlutterMacOS
   - Flutter (1.0.0)
   - pin_app_challenge_post_sdk (0.0.1):
     - Flutter
 
 DEPENDENCIES:
-  - connectivity_plus (from `.symlinks/plugins/connectivity_plus/darwin`)
   - Flutter (from `Flutter`)
   - pin_app_challenge_post_sdk (from `.symlinks/plugins/pin_app_challenge_post_sdk/ios`)
 
 EXTERNAL SOURCES:
-  connectivity_plus:
-    :path: ".symlinks/plugins/connectivity_plus/darwin"
   Flutter:
     :path: Flutter
   pin_app_challenge_post_sdk:
     :path: ".symlinks/plugins/pin_app_challenge_post_sdk/ios"
 
 SPEC CHECKSUMS:
-  connectivity_plus: 4c41c08fc6d7c91f63bc7aec70ffe3730b04f563
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
   pin_app_challenge_post_sdk: b22982940ecb679f4b9849fd1c3fb4fa72fed843
 
