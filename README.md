@@ -2,6 +2,8 @@
 
 Esta aplicación Flutter permite visualizar una lista de posts y al hacer tap en uno de ellos, ver los comentarios asociados a ese post. El proyecto fue diseñado para ejecutar la aplicación en iOS usando una integración de código nativo. Los posts se obtienen desde un endpoint externo y los comentarios de una integración nativa a través de un plugin hecho en Swift.
 
+Video: https://drive.google.com/file/d/1o8znN-4P0MXPQebO0QOwV2ZTUlCmXR1L/view?usp=share_link
+
 ## Instalación
 
 ### Clonar el repositorio
