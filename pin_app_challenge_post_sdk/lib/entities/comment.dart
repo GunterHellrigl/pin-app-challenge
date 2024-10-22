@@ -1,0 +1,35 @@
+class Comment {
+  final int id;
+  final int postId;
+  final String name;
+  final String email;
+  final String body;
+
+  Comment({
+    required this.id,
+    required this.postId,
+    required this.name,
+    required this.email,
+    required this.body,
+  });
+
+  factory Comment.fromJson(Map<String, dynamic> json) {
+    return Comment(
+      id: json['id'],
+      postId: json['postId'],
+      name: json['name'],
+      email: json['email'],
+      body: json['body'],
+    );
+  }
+
+  factory Comment.fromMap(Map<Object?, Object?> map) {
+    return Comment(
+      id: map['id'] as int,
+      postId: map['postId'] as int,
+      name: map['name'] as String,
+      email: map['email'] as String,
+      body: map['body'] as String,
+    );
+  }
+}
